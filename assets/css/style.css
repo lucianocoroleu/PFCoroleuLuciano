@@ -239,6 +239,26 @@ textarea {
   background-position: center;
 }
 
+.subir {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(99, 169, 192);
+  color: white;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid rgb(218, 212, 212);
+}
+
+@media screen and (max-width: 1024px) {
+  .subir {
+    display: none;
+  }
+}
 .galeriaInspo {
   width: 100%;
   height: auto;
