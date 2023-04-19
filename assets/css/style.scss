@@ -204,3 +204,39 @@ footer {
         grid-template-rows: repeat(1, 850px);
     }
 }
+
+// contacto -----------------------------------------------
+
+form {
+    width: 90%;
+    margin: auto;
+    background-color: $color3;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    width: $sizeXL;
+    margin-bottom: $sizePar;
+    padding: 10px;
+    font-family: $font;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 150px;
+    max-height: 300px;
+    max-width: $sizeXL;
+}
+
+#botonCont {
+    background-color: $color2;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px grey;
+}
+
+#botonCont:hover {
+    background-color: $color4;
+}

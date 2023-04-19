@@ -166,5 +166,38 @@ footer .legal {
     grid-template-rows: repeat(1, 850px);
   }
 }
+form {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.37);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: "robotoMono";
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 150px;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+#botonCont {
+  background-color: lightblue;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px grey;
+}
+
+#botonCont:hover {
+  background-color: aquamarine;
+}
 
 /*# sourceMappingURL=style.css.map */
