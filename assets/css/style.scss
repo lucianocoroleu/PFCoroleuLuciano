@@ -240,3 +240,11 @@ textarea {
 #botonCont:hover {
     background-color: $color4;
 }
+
+//drops---------------------------------------------------
+
+.carousel-item {
+    height: $sizeXL;
+    background-size: cover;
+    background-position: center;
+}
