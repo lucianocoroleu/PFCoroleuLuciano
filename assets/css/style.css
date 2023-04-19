@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "robotoMono";
+  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#fondo {
+  background-color: rgb(171, 206, 218);
+  background-image: url(../images/marble.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbarImage {
+  width: 100px;
+}
+
+.barra {
+  background-color: lightblue;
+  box-shadow: 0 0 5px rgb(111, 192, 219);
+}
+
+.nav-link {
+  color: black !important;
+  text-transform: capitalize;
+  font-family: "robotoMono";
+}
+
+.bannerAutentico {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+footer {
+  width: 100%;
+  background-color: lightblue;
+  position: absolute;
+  margin-top: 30px;
+}
+footer .tituloSeccion {
+  color: black;
+  font-family: "robotoMono";
+  text-align: center;
+}
+footer .legal {
+  color: black;
+  font-family: "robotoMono";
+  text-align: center;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: center;
+}
+.redesSociales i {
+  font-size: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "robotoMono";
+  text-transform: capitalize;
+  text-shadow: 0 0 5px grey;
+  padding: 35px;
+  font-size: 2rem;
+}
+
+.galeria {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 350px);
+  padding: 20px;
+  grid-gap: 15px;
+}
+
+.img {
+  box-shadow: 0 0 10px grey;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url(../images/2erDrop\ 2.jpg);
+}
+
+.img2 {
+  background-image: url(../images/ese2.png);
+}
+
+.rounded {
+  height: 100%;
+}
+
+.dbutton {
+  text-align: center;
+  padding: 40px;
+}
+
+.btn {
+  background-color: lightblue;
+  font-family: "robotoMono";
+  text-transform: uppercase;
+  padding: 15px 60px;
+  box-shadow: 0 0 10px grey;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.jumbotron {
+  background-color: rgba(128, 128, 128, 0.37);
+  box-shadow: 0 0 30px rgba(128, 128, 128, 0.37);
+}
+.jumbotron p {
+  font-family: "robotoMono";
+  padding: 30px;
+}
+
+@media only screen and (min-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 350px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 500px);
+  }
+  .containerNos {
+    display: flex;
+  }
+  .nleft {
+    width: 40%;
+  }
+  .nleft2 {
+    width: 40%;
+  }
+  .nright {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 750px);
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 850px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
