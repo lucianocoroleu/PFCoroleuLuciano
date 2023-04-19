@@ -248,3 +248,39 @@ textarea {
     background-size: cover;
     background-position: center;
 }
+
+//sobre nosotros ------------------------------------------
+
+.containerNos {
+    background-color: $color3;
+    width: $sizeXL;
+    height: auto;
+}
+
+.nleft {
+    width: $sizeXL;
+    height: 500px;
+    background-image: url(../images/nosImg.png);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nright {
+    width: $sizeXL;
+    padding: $sizePar;
+
+    p {
+        font-family: $font;
+        font-size: $sizePar;
+    }
+}
+
+.nleft2 {
+    width: $sizeXL;
+    height: 500px;
+    background-image: url(../images/queAuten.png);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
